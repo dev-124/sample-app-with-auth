@@ -1,0 +1,54 @@
+{
+  "localization": {
+    "title": "English",
+    "description": "Read this page in English"
+  },
+  "terms": {
+    "email": "email",
+    "emailPlural": "emails",
+    "post": "post",
+    "postPlural": "posts",
+    "tag": "tag",
+    "tagPlural": "tags",
+    "warning": "warning",
+    "error": "error",
+    "information": "information",
+    "success": "success"
+  },
+  "buttons": {
+    "new": "new",
+    "show": "show",
+    "hide": "hide",
+    "save": "Save",
+    "confirm": "Confirm",
+    "register": "Register",
+    "cancel": "Cancel",
+    "goBack": "Go Back",
+    "continue": "Continue",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "create": "Create",
+    "copy": "Copy",
+    "moreInfo": "More Information",
+    "send": "Send"
+  },
+  "messages": {
+    "emailRequiredField": "email is a required field.",
+    "emailIsEmail": "This is not a valid email address.",
+    "emailSent": "Your newsletter confirmation email was sent."
+  },
+  "sections": {
+    "faq": "Frequently Asked Questions"
+  },
+  "pages": {
+    "notFoundTitle": "Page not found",
+    "notFoundDescription": "Oops! The page you are looking for is not here",
+    "blogTaggedWith": "Tagged with",
+    "blogViewAllTags": "View all tags",
+    "contactSuccessTitle": "Thank you for reaching out",
+    "contactSuccessDescription": "I'll be in touch shortly!",
+    "registerSuccessTitle": "Thanks for registering!",
+    "registerSuccessDescription": "I'll be in touch shortly!"
+  }
+}

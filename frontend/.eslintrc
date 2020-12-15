@@ -1,0 +1,84 @@
+{
+  "env": {
+    "jest": true
+  },
+  "globals": {
+    "__PATH_PREFIX__": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "root": true,
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    // see typescript-eslint/../packages/parser/README.md#configuration
+    "parser": "@typescript-eslint/parser",
+    "tsconfigRootdir": ".",
+    "project": "tsconfig.json",
+    "sourceType": "module"
+  },
+  "ignorePatterns": ["*.js", "*.md", "*todo"],
+  "extends": [
+    // enables all rules (default/strict/recommended) at once
+    "airbnb-typescript",
+    "airbnb/hooks",
+    // "plugin:jest/recommended",
+    "plugin:jsx-a11y/strict",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:testing-library/react",
+    "plugin:testing-library/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:prettier/recommended",
+    // prettier exclusions
+    "prettier/react",
+    "prettier/@typescript-eslint",
+    "prettier"
+  ],
+  "plugins": [
+    "import",
+    "jest",
+    "jsx-a11y",
+    "promise",
+    "react",
+    "react-hooks",
+    "simple-import-sort",
+    "standard",
+    "testing-library",
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "rules": {
+    "@typescript-eslint/no-floating-promises": "off",
+    "no-unsafe-assignment": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/no-unsafe-member-access": "off",
+    "@typescript-eslint/no-loop-func": "off",
+    "@typescript-eslint/no-unsafe-call": "off",
+    "@typescript-eslint/restrict-template-expressions": "off",
+    "@typescript-eslint/no-unsafe-return": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    // Auto-sort imports
+    "sort-imports": "off",
+    "import/order": "off",
+    "simple-import-sort/sort": "error",
+    "react/jsx-props-no-spreading": "off",
+    "react/destructuring-assignment": "off",
+    "react/require-default-props": "off",
+    // "react/sort-prop-types": 1,  // no autofix
+    // had to manually set these to off:
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": [
+      // only report on packages that are not included deps or devDeps
+      "error",
+      {
+        "devDependencies": true
+      }
+    ]
+  }
+}

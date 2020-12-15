@@ -1,0 +1,18 @@
+{
+  "siteName": "EXAMPLE",
+  "siteShortName": "EXAMPLE",
+  "siteDescription": "EXAMPLE DESCRIPTION",
+  "siteAuthor": "Ex Ample",
+  "kvk": "KVK ----",
+  "siteSocial": {
+    "facebook": "fb.com/PATH",
+    "whatsapp": "",
+    "linkedin": "linkedin.com/PATH",
+    "pinboard": "",
+    "podcast": "",
+    "vimeo": "",
+    "youtube": "",
+    "twitter": "",
+    "newsletter": ""
+  }
+}

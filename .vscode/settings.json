@@ -1,0 +1,18 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#0d6277",
+    "statusBarItem.hoverBackground": "#ee9116",
+    "statusBarItem.activeBackground": "#0b4857",
+    "statusBarItem.remoteBackground": "#0b4857",
+    "statusBar.background": "#e2750f",
+    "terminal.foreground": "#3ef0d2",
+    "terminal.background": "#1c153c"
+  },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.config": {
+    "ignoreFiles": ["!**/*.css", "**/*.*"]
+  },
+  "editor.wordWrap": "wordWrapColumn"
+}

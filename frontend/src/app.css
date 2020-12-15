@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  @variants hover, focus {
+    .filter-none {
+      filter: none;
+    }
+    .filter-grayscale {
+      filter: grayscale(100%);
+    }
+  }
+}
+/* fonts are loaded from static together with this file in gatsby-browser.js */
+
+body {
+  font-family: Pacifico, Arial;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  font-family: Kalam, Arial;
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl tracking-wider leading-loose font-semibold py-6;
+  }
+  h2 {
+    @apply text-3xl tracking-wider leading-loose font-semibold py-5;
+  }
+  h3 {
+    @apply text-2xl tracking-wide leading-relaxed font-medium py-4;
+  }
+  h4 {
+    @apply text-xl tracking-wide leading-relaxed font-medium py-3;
+  }
+  h5 {
+    @apply text-lg tracking-normal leading-normal font-medium py-2;
+  }
+  h6 {
+    @apply text-base tracking-normal leading-normal font-normal py-1;
+  }
+}
+
+/* center text on mobile, and left align it on screens 640px and wider */
+.responsive-text {
+  @apply text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl text-center sm:text-left;
+}

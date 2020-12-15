@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActiveBadge renders a false text badge with red background 1`] = `
+<div>
+  <div
+    class="global-wrapper"
+  >
+    <span
+      class="relative inline-block align-middle text-center px-4 py-2 leading-5"
+    >
+      <span
+        aria-hidden="true"
+        class="absolute inset-0 bg-error text-red-800 opacity-50 rounded-sm"
+      />
+      <span
+        class="relative text-sm font-semibold "
+      >
+         
+        false
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`ActiveBadge renders a green true text badge with green background 1`] = `
+<div>
+  <div
+    class="global-wrapper"
+  >
+    <span
+      class="relative inline-block align-middle text-center px-4 py-2 leading-5"
+    >
+      <span
+        aria-hidden="true"
+        class="absolute inset-0 bg-success text-green-800 opacity-50 rounded-sm"
+      />
+      <span
+        class="relative text-sm font-semibold "
+      >
+         
+        true
+      </span>
+    </span>
+  </div>
+</div>
+`;
