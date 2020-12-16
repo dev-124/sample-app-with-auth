@@ -17,7 +17,7 @@ export const Layout = ({ children }: LayoutProps) => {
       <NotificationsManager>
         <main className='px-2 sm:px-4 lg:px-6'>{children}</main>
       </NotificationsManager>
-      <Footer />
+      {readIsLoggedIn ? '' : <Footer />}
     </div>
   )
 }
