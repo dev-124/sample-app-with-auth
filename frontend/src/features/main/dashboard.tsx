@@ -21,7 +21,7 @@ export const Dashboard = () => {
       {userProfile?.active_organisation ? (
         <div className='grid grid-flow-col grid-cols-3 gap-3 md:gap-4 text-center'>
           <div className='py-3 md:py-6 flex'>
-            <div className='border w-full border-gray-300 shadow-sm rounded-sm'>
+            <div className='border w-full border-gray-300 shadow-sm rounded-lg'>
               <IoIosNotificationsOutline style={{ margin: 10 }} size={36} fill='black' />
               <h2 className='title-font font-medium text-gray-900'>2</h2>
               <p className='leading-relaxed'>Alerts</p>
@@ -55,10 +55,10 @@ export const Dashboard = () => {
         </dl>
       </div>
       <h3> Actions </h3>
-      <div className='flex items-start'>
+      <div className='flex items-start p-4'>
         <SmartLink
           to='/app/profile/view'
-          className='inline-flex font-semibold  my-4 mr-2 py-2 px-4 border border-gray-600 shadow rounded-sm focus:outline-none'
+          className='inline-flex font-semibold my-4 mr-2 py-2 px-4 rounded focus:outline-none bg-blue-800 hover:bg-blue-900 text-gray-50'
         >
           Settings
         </SmartLink>

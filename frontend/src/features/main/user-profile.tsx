@@ -49,7 +49,7 @@ export const UserProfile = () => {
   }, [dispatch, hasActiveOrganisation, userProfile?.organisations])
 
   const linkStyle =
-    '  font-semibold  px-2 w-full my-4 mr-2 py-2 px-4 border border-gray-600 shadow rounded-sm focus:outline-none'
+    'inline-flex font-semibold my-4 mr-2 py-2 px-4 rounded focus:outline-none bg-blue-800 hover:bg-blue-900 text-gray-50'
 
   return (
     <div className='mx-auto md:w-2/3 2xl:w-1/3'>
@@ -89,7 +89,7 @@ export const UserProfile = () => {
               <h3> Organisation</h3>
               <SmartLink
                 to='/app/organisation/view'
-                className='cursor-pointer px-3 py-2 rounded-sm font-semibold text-white bg-blue-800 hover:bg-blue-600  mr-3'
+                className='cursor-pointer px-3 py-3 rounded-sm font-semibold text-teal-800 bg-white ring-2 ring-teal-600 mr-3'
               >
                 {activeOrganisation()?.natural_name}
               </SmartLink>

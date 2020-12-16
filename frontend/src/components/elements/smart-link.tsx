@@ -47,7 +47,7 @@ const validKeyPress = (event: React.KeyboardEvent) => {
 export const SmartLink = ({
   children,
   to = '/',
-  activeClassName = 'text-brand-azul',
+  activeClassName = 'text-teal-600',
   ...props
 }: GatsbyLinkProps<SmartLinkProps>): JSX.Element => {
   if (to.startsWith('#')) {

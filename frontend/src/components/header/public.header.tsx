@@ -14,7 +14,7 @@ export const PublicHeader = () => (
           <Logo />
         </SmartLink>
         <SmartLink
-          className='mx-auto md:mx-4 lg:mx-6 xl:mx-8 font-semibold hover:opacity-75 outline border border-green-400 text-green-900 py-3 px-8 rounded-sm w-1/2'
+          className='mx-auto md:mx-4 lg:mx-6 xl:mx-8 font-semibold hover:opacity-75 outline ring-2 ring-teal-700 text-teal-700 py-3 px-8 rounded-full w-1/2'
           to='/'
         >
           Overview
