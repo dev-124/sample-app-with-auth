@@ -25,12 +25,11 @@ export const SimpleJustifiedCTASection = ({
     </a>
     {buttonText !== '' ? (
       <div className='mt-8 flex lg:flex-shrink-0 lg:mt-0'>
-        <div className='max-w-20 p-2 overflow-visible  mx-auto'>
+        <div className='max-w-20 p-2 overflow-visible mx-auto'>
           <SmartLink to={`${buttonUrl}`}>
             <button
               type='button'
-              className={`mx-2 py-4 px-7 rounded-full border-transparent leading-6 font-bold text-white ${buttonColor} focus:outline-none
-                  `}
+              className={`mx-2 py-4 px-7 rounded-full border-transparent leading-6 font-bold text-white ${buttonColor} focus:outline-none`}
             >
               {buttonText}
             </button>

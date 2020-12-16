@@ -25,8 +25,6 @@ const Index = () => (
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
         cillum dolore eu fugiat nulla pari
       </p>
-      {/* Customers Section */}
-      {/* show how others rated you... embed on your page */}
     </div>
   </DefaultLayout>
 )

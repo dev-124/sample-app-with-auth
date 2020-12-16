@@ -1,6 +1,7 @@
 export * from './elements'
 export * from './table'
 export * from './header'
+export * from './footer'
 export * from './navigation'
 export * from './seo'
 export * from './page-sections'
