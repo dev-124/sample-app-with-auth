@@ -42,7 +42,7 @@ export const Login = () => {
           <input
             id='email'
             name='email'
-            className='min-w-full   bg-primary-light rounded-sm border 
+            className='min-w-full bg-primary-light rounded-sm border 
                   border-gray-200 focus:outline-none focus:border-secondary-blue focus:placeholder-secondary-blue-dark px-2 py-2'
             ref={register({
               required: true,

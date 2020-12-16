@@ -11,7 +11,7 @@ export const Layout = ({ children }: LayoutProps) => {
   const Header = readIsLoggedIn ? PrivateHeader : PublicHeader
 
   return (
-    <div className='max-w-screen responsive-text'>
+    <div className='max-w-screen responsive-text min-h-screen grid grid-cols-1'>
       <SEO title='Gatsby Sample App with Auth' />
       <Header />
       <NotificationsManager>
