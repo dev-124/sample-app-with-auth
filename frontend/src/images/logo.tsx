@@ -9,6 +9,7 @@ export const Logo = (
     viewBox='0 0 177 100'
     fill='none'
     xmlns='http://www.w3.org/2000/svg'
+    className='animate-flip'
     {...props}
   >
     <circle cx='92' cy='50' r='30' fill='#0D9488' />

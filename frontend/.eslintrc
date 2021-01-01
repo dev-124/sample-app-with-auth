@@ -18,7 +18,7 @@
     // see typescript-eslint/../packages/parser/README.md#configuration
     "parser": "@typescript-eslint/parser",
     "tsconfigRootdir": ".",
-    "project": "tsconfig.json",
+    "project": "./frontend/tsconfig.json",
     "sourceType": "module"
   },
   "ignorePatterns": ["*.js", "*.md", "*todo"],

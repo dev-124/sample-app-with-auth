@@ -87,6 +87,7 @@ module.exports = {
       spin: 'spin 1s linear infinite',
       ping: 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
       pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+      flip: 'flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both',
       bounce: 'bounce 1s infinite',
       'appear-grow': 'grow 0.2s ease-in-out',
       wiggle: 'wiggle 5s ease-in-out infinite',
@@ -498,6 +499,14 @@ module.exports = {
         '75%, 100%': {
           transform: 'scale(2)',
           opacity: '0'
+        }
+      },
+      'flip-horizontal-bottom': {
+        '0%': {
+          transform: 'rotateX(0)'
+        },
+        '100%': {
+          transform: 'rotateX(-180deg)'
         }
       },
       pulse: {
